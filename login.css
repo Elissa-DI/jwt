@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.title {
+    margin: 5px 0px 0px 600px;
+}
+.main {
+    width: 65vw;
+    height: 80vh;
+    box-shadow: 1px 3px 3px;
+    border-radius: 20px;
+    margin: 35px 0px 0px 200px;
+    /* background-color: aqua; */
+}
+.left {
+    width: 65%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.right {
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+    color: white;
+    float: right;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.right h2 {
+    margin: 200px 0px 0px 70px;
+    color: white;
+    font-size: 30px;
+}
+.right h2 span{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.right button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    color: aqua;
+    margin: 10px 0px 0px 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right button:hover {
+    box-shadow: 0px 0.8px 2px rgb(13, 146, 146); 
+}
+.input {
+    width: 400px;
+    height: 40px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 1.5px;
+}
+.inputIn {
+    width: 400px;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 100px 0px 0px 70px;
+}
+input[type="submit"] {
+   width: 170px;
+   height: 40px;
+   border: none;
+   border-radius: 18px;
+   color: white;
+   background-color: aqua;
+   cursor: pointer;
+   margin: 30px 0px 0px 100px;
+   transition: 1s ease;
+   font-weight: bold;
+}
+input[type="submit"]:hover {
+   background-color: white;
+   color: aqua;
+   box-shadow: 1px 0px 3px aqua;
+}
+a {
+    text-decoration: none;
+    color: rgb(76, 76, 202);
+    margin: 3px 0px 0px 260px;
+    font-family: mv boli;
+    font-weight: bold;
+}

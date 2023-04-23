@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.title {
+    margin: 5px 0px 0px 600px;
+}
+.main {
+    width: 65vw;
+    height: 80vh;
+    /* border: 2px solid ; */
+    box-shadow: 1px 3px 3px;
+    border-radius: 20px;
+    margin: 35px 0px 0px 200px;
+}
+.left {
+    width: 35%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.left h2 {
+    margin: 200px 0px 0px 40px;
+    color: white;
+    font-size: 30px;
+}
+.left p {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 18px 0px 0px 78px;
+    animation: colorize 5s infinite;
+    transition: 1s ease;
+}
+.left p span{
+    margin-left: 50px;
+    font-size: 18px;
+}
+@keyframes colorize {
+    0%{
+        color: violet;
+    }
+    35%{
+        color: white;
+    }
+    65%{
+        color: blue;
+    }
+    100%{
+        color: aqua;
+    }
+}
+.left button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    color: aqua;
+    margin: 10px 0px 0px 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.left button:hover {
+    box-shadow: 0px 0.8px 2px rgb(13, 146, 146); 
+}
+.right {
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(33, 45, 45); */
+    float: right;
+}
+.inputIn {
+    width: 400px;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 100px 0px 0px 70px;
+}
+.right h2 {
+    margin: 70px 0px 0px 100px;
+    
+}
+.input {
+     width: 400px;
+     height: 40px;
+     margin: 10px 0px;
+     border: none;
+     border-radius: 5px;
+     background-color: aliceblue;
+     box-shadow: 0px 0px 1.5px;
+}
+input[type="submit"] {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: aqua;
+    cursor: pointer;
+    margin: 30px 0px 0px 100px;
+    transition: 1s ease;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: aqua;
+    box-shadow: 0px 0px 2px aqua;
+}
